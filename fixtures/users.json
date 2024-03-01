@@ -1,0 +1,57 @@
+[
+    {
+      "model": "users.country",
+      "pk": 1,
+      "fields": {
+        "name": "India"
+      }
+    },
+    {
+      "model": "users.state",
+      "pk": 1,
+      "fields": {
+        "name": "Maharashtra",
+        "country": 1
+      }
+    },
+    {
+        "model": "users.state",
+        "pk": 2,
+        "fields": {
+          "name": "Delhi",
+          "country": 1
+        }
+      },
+      {
+        "model": "users.state",
+        "pk": 3,
+        "fields": {
+          "name": "Karnataka",
+          "country": 1
+        }
+      },
+      {
+        "model": "users.city",
+        "pk": 1,
+        "fields": {
+          "name": "Mumbai",
+          "state": 1
+        }
+      },
+      {
+        "model": "users.city",
+        "pk": 2,
+        "fields": {
+          "name": "Delhi",
+          "state": 2
+        }
+      },
+      {
+        "model": "users.city",
+        "pk": 3,
+        "fields": {
+          "name": "Bengaluru",
+          "state": 3
+        }
+      }
+  ]
